@@ -1,7 +1,7 @@
 /* INTS Report — service worker: aplikasi terbuka cepat & tetap tampil saat sinyal lemah.
    Hanya berkas aplikasi (halaman, kantor 3D, ikon) yang disimpan di perangkat; DATA selalu diminta ke server
    (API Apps Script beda alamat, tidak pernah disentuh di sini). Versi berubah otomatis setiap build. */
-var VER = '99d2f5f8338b';
+var VER = '5a19cbf01c36';
 var CACHE = 'ints-app-' + VER;
 var SHELL = ['./', 'office.html', 'manifest.webmanifest', 'icon.svg', 'icon-maskable.svg'];
 
